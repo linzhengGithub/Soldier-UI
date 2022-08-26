@@ -1,0 +1,12 @@
+<h1>build Demo</h1>
+<div id="app"></div>
+<script type="module">
+    import { createApp } from "vue/dist/vue.esm-bundler.js";
+    import SoldierUI, { SFCButton } from "../../dist/soldier-ui.mjs";
+
+    createApp({
+        template: `
+      <SFCButton/>
+    `}).use(SoldierUI).mount('#app')
+
+</script>
