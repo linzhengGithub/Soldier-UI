@@ -1,4 +1,7 @@
 import { createApp } from 'vue';
-import SFCButton from './button/index.vue';
+import TestBtn from './button/testBtn.vue';
+import 'uno.css'
 
-createApp(SFCButton).mount('#app')
+createApp(
+  TestBtn
+).mount('#app')
